@@ -35,18 +35,22 @@ REM Above Allows For ASCII Art.
 REM Place ":::" at the start of each line for ASCII characters.
 
 echo.
-echo         Gettings Ready To Start The V Rising Dedicated Server
-echo                    PRESS CTRL+C To Shutdown Server          
+echo         Gettings Ready To Start The V Rising Dedicated Server          
+echo.
 echo.
 
-pause
+echo              Press Enter To Continue or Ctrl+C to Abort.
+echo.
+echo.
+pause > nul
+
 
 echo.
 echo Server Launched;
 echo %DATE%
 Time /T
 echo.
-
 echo.
+
 @echo on
-VRising.exe -persistentDataPath "Server Folder Location" -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log"
+VRisingServer.exe -persistentDataPath .\save-data -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log" 

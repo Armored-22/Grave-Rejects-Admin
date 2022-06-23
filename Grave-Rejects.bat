@@ -48,7 +48,5 @@ echo %DATE%
 Time /T
 echo.
 
-pause
-
 @echo on
 VRisingServer.exe -persistentDataPath .\save-data -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log"

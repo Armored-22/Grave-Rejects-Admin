@@ -29,9 +29,8 @@ echo.
 :::                      :            : :            :
 :::                                    :
 :::
-
+REM Below Code Allows For ASCII Art.
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-REM Above Allows For ASCII Art.
 REM Place ":::" at the start of each line for ASCII characters.
 
 echo.
@@ -52,4 +51,4 @@ echo.
 pause
 
 @echo on
-VRisingServer.exe -persistentDataPath .\save-data -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log" 
+VRisingServer.exe -persistentDataPath .\save-data -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log"

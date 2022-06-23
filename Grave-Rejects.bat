@@ -46,3 +46,4 @@ echo.
 pause
 
 @echo on
+VRising.exe -persistentDataPath "Server Folder Location" -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log"

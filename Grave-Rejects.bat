@@ -44,13 +44,12 @@ echo.
 echo.
 pause > nul
 
-
-echo.
 echo Server Launched;
 echo %DATE%
 Time /T
 echo.
-echo.
+
+pause
 
 @echo on
 VRisingServer.exe -persistentDataPath .\save-data -serverName "Grave Rejects" -saveName "GraveRejects" -logFile ".\logs\VRisingServer.log" 

@@ -1,1 +1,23 @@
-
+{
+  "Name": "Grave Rejects",
+  "Description": "",
+  "Port": 27015,
+  "QueryPort": 27016,
+  "MaxConnectedUsers": 40,
+  "MaxConnectedAdmins": 4,
+  "ServerFps": 30,
+  "SaveName": "GraveRejects",
+  "Password": "",
+  "Secure": true,
+  "ListOnMasterServer": true,
+  "AutoSaveCount": 50,
+  "AutoSaveInterval": 600,
+  "GameSettingsPreset": "",
+  "AdminOnlyDebugEvents": true,
+  "DisableDebugEvents": false,
+  "Rcon": {
+    "Enabled": false,
+    "Port": 25575,
+    "Password": ""
+  }
+}

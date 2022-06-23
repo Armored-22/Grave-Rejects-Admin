@@ -1,8 +1,8 @@
 @echo off
 set SteamAppId=1604030
 
-REM Window Size Layout = Width:75 / Height:40
-REM Window Position Layout = Left:942 / Top:250
+REM Window Size Layout = Width:73 / Height:38
+REM Window Position Layout = Left:950 / Top:250
 
 color 04
 

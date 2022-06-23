@@ -1,7 +1,8 @@
 @echo off
 set SteamAppId=1604030
 
-REM Layout = W:75 / H:40
+REM Window Size Layout = Width:75 / Height:40
+REM Window Position Layout = Left:942 / Top:250
 
 echo.
 echo 	            Server Launcher For Grave Rejects

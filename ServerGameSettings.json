@@ -37,7 +37,7 @@
   "SilverStrengthModifier": 1.0,
   "SunDamageModifier": 1.0,
   "CastleDecayRateModifier": 1.0,
-  "CastleBloodEssenceDrainModifier": 0.5,
+  "CastleBloodEssenceDrainModifier": 1.0,
   "CastleSiegeTimer": 420.0,
   "CastleUnderAttackTimer": 60.0,
   "AnnounceSiegeWeaponSpawn": true,
@@ -51,7 +51,7 @@
   "ResearchTimeModifier": 1.0,
   "DismantleResourceModifier": 1.0,
   "ServantConvertRateModifier": 2.5,
-  "RepairCostModifier": 0.25,
+  "RepairCostModifier": 0.35,
   "Death_DurabilityFactorLoss": 0.25,
   "Death_DurabilityLossFactorAsResources": 0.25,
   "StarterEquipmentId": 0,
@@ -72,9 +72,9 @@
   "VampireStatModifiers": {
     "MaxHealthModifier": 1.0,
     "MaxEnergyModifier": 1.0,
-    "PhysicalPowerModifier": 2.5,
-    "SpellPowerModifier": 1.5,
-    "ResourcePowerModifier": 5.0,
+    "PhysicalPowerModifier": 1.6,
+    "SpellPowerModifier": 1.2,
+    "ResourcePowerModifier": 1.0,
     "SiegePowerModifier": 1.0,
     "DamageReceivedModifier": 1.0,
     "ReviveCancelDelay": 5.0
@@ -183,27 +183,27 @@
   "PlayerInteractionSettings": {
     "TimeZone": "Local",
     "VSPlayerWeekdayTime": {
-      "StartHour": 17,
+      "StartHour": 07,
       "StartMinute": 0,
-      "EndHour": 23,
+      "EndHour": 12,
       "EndMinute": 0
     },
     "VSPlayerWeekendTime": {
       "StartHour": 17,
       "StartMinute": 0,
-      "EndHour": 23,
+      "EndHour": 03,
       "EndMinute": 0
     },
     "VSCastleWeekdayTime": {
-      "StartHour": 17,
+      "StartHour": 07,
       "StartMinute": 0,
-      "EndHour": 23,
+      "EndHour": 12,
       "EndMinute": 0
     },
     "VSCastleWeekendTime": {
       "StartHour": 17,
       "StartMinute": 0,
-      "EndHour": 23,
+      "EndHour": 03,
       "EndMinute": 0
     }
   }

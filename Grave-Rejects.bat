@@ -41,8 +41,9 @@ echo.
 echo              Press Enter To Continue or Ctrl+C to Abort.
 echo.
 echo.
-pause > nul
+pause 
 
+echo.
 echo Server Launched;
 echo %DATE%
 Time /T

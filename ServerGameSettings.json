@@ -37,7 +37,7 @@
   "SilverStrengthModifier": 1,
   "SunDamageModifier": 1,
   "CastleDecayRateModifier": 1,
-  "CastleBloodEssenceDrainModifier": 0.5,
+  "CastleBloodEssenceDrainModifier": 1.5,
   "CastleSiegeTimer": 300,
   "CastleUnderAttackTimer": 60,
   "AnnounceSiegeWeaponSpawn": true,

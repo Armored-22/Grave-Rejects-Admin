@@ -1,0 +1,12 @@
+{
+ "VOIPEnabled": true,
+ "VOIPIssuer": "graver8366-gr54-dev",
+ "VOIPSecret": "bump998",
+ "VOIPAppUserId": "GraveR8366-Gr54-dev-Admin",
+ "VOIPAppUserPwd": "R4ocXb6J2mA94ijA",
+ "VOIPVivoxDomain": "mt1s.vivox.com",
+ "VOIPAPIEndpoint": "https://mt1s.www.vivox.com/api2",
+ "VOIPConversationalDistance": 14,
+ "VOIPAudibleDistance": 40,
+ "VOIPFadeIntensity": 2
+}

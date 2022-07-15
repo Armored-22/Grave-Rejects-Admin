@@ -1,0 +1,23 @@
+{
+  "Name": "Grave Rejects",
+  "Description": "RPG Server With Leveling \n \n - 1 Year Paid \n - Experience System \n (gear score removed) \n - Weapon Mastery \n (with offline decay) \n - NPC Bounties \n (factions will hunt you) \n - Increased Physical Damage \n - Max Inventory Stacks \n - Lower Durability Loss \n - Lower Repair Costs \n - 2x Crafting/Refinement Rates \n - PVP Punishment System \n (debuff when killing low levels) \n - PvP Kills Announced \n - PvP Ladder Board \n - Weekend Castle Raids \n \n For More Info Visit \n sites.google.com/view/graverejects",
+  "Port": 27715,
+  "QueryPort": 27716,
+  "MaxConnectedUsers": 60,
+  "MaxConnectedAdmins": 4,
+  "ServerFps": 30,
+  "SaveName": "GraveRejects",
+  "Password": "",
+  "Secure": true,
+  "ListOnMasterServer": true,
+  "AutoSaveCount": 8,
+  "AutoSaveInterval": 600,
+  "GameSettingsPreset": "",
+  "AdminOnlyDebugEvents": true,
+  "DisableDebugEvents": false,
+  "Rcon": {
+    "Enabled": true,
+    "Port": "9587",
+    "Password": "Jp3#7f$Kv@j6"
+  }
+}

@@ -1,0 +1,219 @@
+## Settings file was created by plugin RPGMods v0.2.3
+## Plugin GUID: RPGMods
+
+[Config]
+
+## The prefix used for chat commands.
+# Setting type: String
+# Default value: .
+Prefix = .
+
+## The number of seconds user need to wait out before sending another command.
+## Admin will always bypass this.
+# Setting type: Single
+# Default value: 5
+Command Delay = 5
+
+## Enter command names to disable them. Seperated by commas.
+## Ex.: save,godmode,god
+# Setting type: String
+# Default value: 
+Disabled Commands = 
+
+## Set a waypoint limit per user.
+# Setting type: Int32
+# Default value: 3
+Waypoint Limit = 3
+
+[Experience]
+
+## Enable/disable the the Experience System.
+# Setting type: Boolean
+# Default value: true
+Enable = true
+
+## Configure the experience system max level.
+# Setting type: Int32
+# Default value: 80
+Max Level = 100
+
+## Multiply the EXP gained by player.
+## Ex.: 0.7f -> Will reduce the EXP gained by 30%
+## Formula: UnitKilledLevel * EXPMultiplier
+# Setting type: Single
+# Default value: 1
+Multiplier = 1
+
+## Multiply EXP gained from VBlood kill.
+## Formula: EXPGained * VBloodMultiplier * EXPMultiplier
+# Setting type: Single
+# Default value: 15
+VBlood Multiplier = 15
+
+## Percentage of experience the player lost for every death by NPC, no EXP is lost for PvP.
+## Formula: TotalPlayerEXP - (EXPNeeded * EXPLost)
+# Setting type: Double
+# Default value: 0.1
+EXP Lost / Death = 0.1
+
+## Increase or decrease the required EXP to level up.
+## Formula: (level/constant)^2
+## EXP Table & Formula: https://bit.ly/3npqdJw
+# Setting type: Single
+# Default value: 0.2
+Constant = 0.2
+
+## Set the modifier for EXP gained for each ally(player) in vicinity.
+## Example if you have 2 ally nearby, EXPGained = ((EXPGained * Modifier)*Modifier)
+# Setting type: Double
+# Default value: 0.75
+Group Modifier = 0.75
+
+## Set the maximum distance an ally(player) has to be from the player for them to share EXP with the player
+# Setting type: Single
+# Default value: 50
+Ally Max Distance = 50
+
+[HunterHunted]
+
+## Enable/disable the HunterHunted system.
+# Setting type: Boolean
+# Default value: true
+Enable = true
+
+## Set the reduction value for player heat for every cooldown interval.
+# Setting type: Int32
+# Default value: 35
+Heat Cooldown = 35
+
+## Set the reduction value for player heat from the bandits faction for every cooldown interval.
+# Setting type: Int32
+# Default value: 35
+Bandit Heat Cooldown = 35
+
+## Set every how many seconds should the cooldown interval trigger.
+# Setting type: Int32
+# Default value: 60
+Cooldown Interval = 60
+
+## Set how many seconds player can be ambushed again since last ambush.
+# Setting type: Int32
+# Default value: 300
+Ambush Interval = 300
+
+## Set the percentage that an ambush may occur for every cooldown interval.
+# Setting type: Int32
+# Default value: 50
+Ambush Chance = 50
+
+## Despawn the ambush squad after this many second if they are still alive. Ex.: -1 -> Never Despawn
+# Setting type: Single
+# Default value: 300
+Ambush Despawn Timer = 300
+
+[Mastery]
+
+## Enable/disable the weapon mastery system.
+# Setting type: Boolean
+# Default value: true
+Enable Weapon Mastery = true
+
+## Enable/disable the decay of weapon mastery when the user is offline.
+# Setting type: Boolean
+# Default value: true
+Enable Mastery Decay = true
+
+## Configure the maximum mastery the user can atain. (100000 is 100%)
+# Setting type: Int32
+# Default value: 100000
+Max Mastery Value = 100000
+
+## Configure the amount of mastery gained per combat ticks. (5 -> 0.005%)
+# Setting type: Int32
+# Default value: 5
+Mastery Value/Combat Ticks = 5
+
+## Mastery will no longer increase after this many ticks is reached in combat. (1 tick = 5 seconds)
+# Setting type: Int32
+# Default value: 12
+Max Combat Ticks = 12
+
+## Multiply the gained mastery value by this amount.
+# Setting type: Single
+# Default value: 1
+Mastery Multiplier = 1
+
+## Multiply Mastery gained from VBlood kill.
+# Setting type: Single
+# Default value: 15
+VBlood Mastery Multiplier = 15
+
+## Every amount of seconds the user is offline by the configured value will translate as 1 decay tick.
+# Setting type: Int32
+# Default value: 60
+Decay Interval = 150
+
+## Mastery will decay by this amount for every decay tick.(1 -> 0.001%)
+# Setting type: Int32
+# Default value: 1
+Decay Value = 1
+
+[PvP]
+
+## Do I really need to explain this...?
+# Setting type: Boolean
+# Default value: true
+Announce PvP Kills = true
+
+## Enables the PvP Ladder in the PvP command.
+# Setting type: Boolean
+# Default value: true
+Enable PvP Ladder = true
+
+## Enable/disable the pvp toggle feature in the pvp command.
+# Setting type: Boolean
+# Default value: true
+Enable PvP Toggle = true
+
+## Enables the punishment system for killing lower level player.
+# Setting type: Boolean
+# Default value: true
+Enable PvP Punishment = true
+
+## Only punish the killer if the victim level is this much lower.
+# Setting type: Int32
+# Default value: -10
+Punish Level Difference = -20
+
+## Killer must make this many offense before the punishment debuff is applied.
+# Setting type: Int32
+# Default value: 3
+Offense Limit = 1
+
+## Reset the offense counter after this many seconds has passed since last offense.
+# Setting type: Single
+# Default value: 300
+Offense Cooldown = 300
+
+## Apply the punishment debuff for this amount of time.
+# Setting type: Single
+# Default value: 1800
+Debuff Duration = 1800
+
+[Siege]
+
+## Enabling this will reduce all incoming physical and spell damage according to config.
+# Setting type: Boolean
+# Default value: false
+Buff Siege Golem = false
+
+## Reduce incoming damage by this much. Ex.: 0.25 -> 25%
+# Setting type: Single
+# Default value: 0.5
+Physical Damage Reduction = 0.5
+
+## Reduce incoming spell damage by this much. Ex.: 0.75 -> 75%
+# Setting type: Single
+# Default value: 0.5
+Spell Damage Reduction = 0.5
+
